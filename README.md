@@ -2,60 +2,28 @@
   <img height="150" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"  />
 </div>
 
-###
+<h1 align="center">Hi 👋, I'm Adam Aarbouba</h1>
+<h3 align="center">A Mad Lad</h3>
 
-<br clear="both">
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=adamaarbouba&label=Profile%20views&color=0e75b6&style=flat" alt="adamaarbouba" /> </p>
 
-<div align="center">
-  <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
-  <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="twitter logo"  />
-  <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="discord logo"  />
-</div>
+- 🌱 I’m currently learning **C / C++**
 
-###
+- 💬 Ask me about **Linux in all its distros**
 
-<div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=adamaarbouba.adamaarbouba&"  />
-</div>
+- 📫 How to reach me **Adamaarbouba@gmail.com**
 
-###
+- ⚡ Fun fact **i like music and beatbox, and hate Football**
 
-<h1 align="center">hey there 👋</h1>
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://instagram.com/adamrainfall" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="adamrainfall" height="30" width="40" /></a>
+</p>
 
-###
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://unity.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" alt="unity" width="40" height="40"/> </a> </p>
 
-<h3 align="left">👩‍💻  About Me</h3>
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=adamaarbouba&show_icons=true&locale=en" alt="adamaarbouba" /></p>
 
-###
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=adamaarbouba&" alt="adamaarbouba" /></p>
 
-<p align="left">I'm Adam from StickNation<br><br>- 🔭 I’m working as Free Labor<br>- 📚 I'm currently learning C/C++<br>- ⚡ In my free time I Code what do you expect lol</p>
-
-###
-
-<h3 align="left">🛠 Language and tools</h3>
-
-###
-
-<br clear="both">
-
-<div align="center">
-  <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=for-the-badge" height="40" alt="docker logo"  />
-  <img width="12" />
-  <img src="https://img.shields.io/badge/Lua-2C2D72?logo=lua&logoColor=white&style=for-the-badge" height="40" alt="lua logo"  />
-  <img width="12" />
-  <img src="https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=black&style=for-the-badge" height="40" alt="c logo"  />
-  <img width="12" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=for-the-badge" height="40" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black&style=for-the-badge" height="40" alt="linux logo"  />
-  <img width="12" />
-  <img src="https://img.shields.io/badge/Raspberry Pi-A22846?logo=raspberrypi&logoColor=white&style=for-the-badge" height="40" alt="raspberrypi logo"  />
-</div>
-
-###
-
-
-
-
-
-###
