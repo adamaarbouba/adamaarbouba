@@ -28,6 +28,5 @@
 
 ## My Stats:
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=adamaarbouba&show_icons=true&locale=en&layout=compact" alt="moabid42" /></p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=adamaarbouba&show_icons=true&locale=en" alt="moabid42" /></p>
