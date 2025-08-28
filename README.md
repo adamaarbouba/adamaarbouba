@@ -69,24 +69,14 @@
 
 ## 📊 My Stats:
 
-<p aline=center>
+<p aline="center">
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=adamaarbouba&show_icons=true&locale=en" alt="adamaarbouba" />
 </p>
 
----
-
-<br>
-<p aline=center>
+<p aline="center">
   <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=adamaarbouba" alt="adamaarbouba" />
 </p>
 
----
-
-<br>
-<p aline=center>
+<p aline="center">
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=adamaarbouba&layout=compact&langs_count=10" alt="adamaarbouba" />
 </p>
-
----
-
-<br>
