@@ -9,8 +9,8 @@
   <img src="https://komarev.com/ghpvc/?username=adamaarbouba&label=Profile%20views&color=0e75b6&style=flat" alt="adamaarbouba" /> 
 </p>
 
-- 🌱 I’m currently learning **C / C++**  
-- 💬 Ask me about **Linux in all its distros**  
+- 🌱 I’m currently learning **JS / React**  
+- 💬 Ask me about **My Favorit Distro "Its Arch Btw"**  
 - 📫 How to reach me **Adamaarbouba@gmail.com**  
 - ⚡ Fun fact **I like music and beatbox, and hate Football**  
 
