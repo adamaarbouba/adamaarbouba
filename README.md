@@ -3,12 +3,11 @@
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%">
 </p>
 
----
-<p align="center" style="font-size:48px; font-weight:bold; color:#FFB6C1; font-family:Arial, sans-serif;">
-  👨‍💻 About Me
+<p align="center"> 
+  
+  ##  👨‍💻 About Me
+  
 </p>
-
-
 
 <p align="center">
   
