@@ -18,9 +18,23 @@
 ---
 
 ## 👨‍💻 About Me  
-💡 Aspiring **Developer** passionate about **Web Development** and modern tools.  
-🚀 Always learning, building, and experimenting.  
-🎯 Goal: Craft clean code and create impactful projects.  
+<p align="center">
+  <svg width="100%" height="80" viewBox="0 0 600 80">
+    <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="none" stroke="#00FFFF" stroke-width="1.5" font-size="24" font-family="monospace">
+      Hi, I’m Adam Aarbouba!
+    </text>
+    <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="#FF00FF" font-size="24" font-family="monospace" opacity="0.5">
+      Aspiring Web Developer | JS & React
+    </text>
+  </svg>
+</p>
+
+<p align="center" style="color:#FFFFFF;">
+  I love exploring <strong>modern technologies</strong> and writing clean, efficient code.  
+  Currently diving deep into <strong>JavaScript and React</strong> while building projects to bring ideas to life.  
+  My goal is to create <strong>impactful, well-designed applications</strong> that people actually enjoy using.  
+  Outside of coding, I’m into <strong>music, beatboxing</strong>, and tinkering with <strong>Linux/Arch setups</strong>.
+</p>
 
 ---
 
