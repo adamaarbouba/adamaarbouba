@@ -45,15 +45,24 @@
 
   <!-- Portfolio Card -->
   <a href="https://your-portfolio-link.com">
-    <!--img src="https://github-readme-stats.vercel.app/api/pin/?username=adamaarbouba&repo=YOUR-PORTFOLIO-REPO&theme=radical&bg_color=0D1117&title_color=00FFFF&text_color=FFFFFF&icon_color=00FFFF" />
-  </a>
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=adamaarbouba&repo=YOUR-PORTFOLIO-REPO&theme=radical&bg_color=0D1117&title_color=00FFFF&text_color=FFFFFF&icon_color=00FFFF" />
+  </a>  
+  <br>
+  <sub>🔹Portfolio project will be added here</sub>  <br>
 
   <!-- Blog Card -->
   <a href="https://your-blog-link.com">
-    <!-- img src="https://github-readme-stats.vercel.app/api/pin/?username=adamaarbouba&repo=YOUR-BLOG-REPO&theme=radical&bg_color=0D1117&title_color=FF00FF&text_color=FFFFFF&icon_color=FF00FF" --/>
-  </a>
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=adamaarbouba&repo=YOUR-BLOG-REPO&theme=radical&bg_color=0D1117&title_color=FF00FF&text_color=FFFFFF&icon_color=FF00FF" />
+  </a>  
+  <br>
+  <sub>🔹Blog project will be added here</sub>  
 
 </p>
+---
+
+<h1> 
+  I will update my page soon
+</h1>  
 
 ---
 
