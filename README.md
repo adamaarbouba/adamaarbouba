@@ -58,13 +58,10 @@
   <sub>🔹Blog project will be added here</sub>  
 
 </p>
----
 
-<h1> 
+<h1 align=center> 
   I will update my page soon
 </h1>  
-
----
 
 ## 📊 GitHub Stats  
 <p align="center">
