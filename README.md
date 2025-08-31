@@ -34,8 +34,6 @@
   <img src="https://img.shields.io/badge/Git-1E1E2E?style=for-the-badge&logo=git&logoColor=F1502F" />
   <img src="https://img.shields.io/badge/Neovim-1E1E2E?style=for-the-badge&logo=neovim&logoColor=32CD32" />
   <img src="https://img.shields.io/badge/Arch_Linux-1E1E2E?style=for-the-badge&logo=arch-linux&logoColor=1793D1" />
-  <img src="https://img.shields.io/badge/Zsh-1E1E2E?style=for-the-badge&logo=gnu-bash&logoColor=FFD700" />
-  <img src="https://img.shields.io/badge/Tmux-1E1E2E?style=for-the-badge&logo=tmux&logoColor=00FF99" />
   <img src="https://img.shields.io/badge/Node.js-1E1E2E?style=for-the-badge&logo=node.js&logoColor=339933" />
   <img src="https://img.shields.io/badge/Markdown-1E1E2E?style=for-the-badge&logo=markdown&logoColor=white" />
 </p>
