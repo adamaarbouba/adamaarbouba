@@ -1,35 +1,27 @@
-<!-- ===== FLASHY NEON README ===== -->
-
-<!-- ASCII Art Intro -->
-```
-██████╗  █████╗ ██╗███╗   ██╗███████╗ █████╗ ██╗     ██╗
-██╔══██╗██╔══██╗██║████╗  ██║██╔════╝██╔══██╗██║     ██║
-██████╔╝███████║██║██╔██╗ ██║█████╗  ███████║██║     ██║
-██╔══██╗██╔══██║██║██║╚██╗██║██╔══╝  ██╔══██║██║     ██║
-██║  ██║██║  ██║██║██║ ╚████║██║     ██║  ██║███████╗███████╗
-╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝╚═╝     ╚═╝  ╚═╝╚══════╝╚══════╝
-
-```
 <!-- SVG Animation (neon wave divider) -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%">
 </p>
 
 ---
-
-## 👨‍💻 About Me  
-<p align="center">
-  <img src="https://img.shields.io/badge/Hi,_I’m_Adam_Aarbouba-1E1E2E?style=for-the-badge&logo=appveyor&logoColor=00FFFF" />
-  <img src="https://img.shields.io/badge/Aspiring_Web_Developer-1E1E2E?style=for-the-badge&logo=react&logoColor=FF00FF" />
+<p align="center" style="font-size:48px; font-weight:bold; color:#FFB6C1; font-family:Arial, sans-serif;">
+  👨‍💻 About Me
 </p>
 
-<p align="center" style="color:#FFFFFF;">
+
+
+<p align="center">
+  
+  ![Typing SVG](https://readme-typing-svg.demolab.com?font=Jersey+10&size=48&duration=3000&pause=500&color=FFFFFF&width=800&lines=Hi,+I’m+Adam+Aarbouba;Aspiring+Web+Developer;)
+  
+</p>
+
+<p align="center" style="color:#E0E0E0; max-width:700px;">
   I love exploring <strong>modern technologies</strong> and writing clean, efficient code.  
   Currently diving deep into <strong>JavaScript and React</strong> while building projects to bring ideas to life.  
   My goal is to create <strong>impactful, well-designed applications</strong> that people actually enjoy using.  
   Outside of coding, I’m into <strong>music, beatboxing</strong>, and tinkering with <strong>Linux/Arch setups</strong>.
 </p>
-
 
 ---
 
@@ -54,13 +46,14 @@
 ## 🚀 Projects  
 <p align="center">
 
-  <!-- Example Project Card -->
-  <a href="https://github.com/USERNAME/PROJECT1">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=USERNAME&repo=PROJECT1&theme=radical&bg_color=0D1117&title_color=00FFFF&text_color=FFFFFF&icon_color=FFD700" />
+  <!-- Portfolio Card -->
+  <a href="https://your-portfolio-link.com">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=adamaarbouba&repo=YOUR-PORTFOLIO-REPO&theme=radical&bg_color=0D1117&title_color=00FFFF&text_color=FFFFFF&icon_color=00FFFF" />
   </a>
 
-  <a href="https://github.com/USERNAME/PROJECT2">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=USERNAME&repo=PROJECT2&theme=radical&bg_color=0D1117&title_color=00FFFF&text_color=FFFFFF&icon_color=FFD700" />
+  <!-- Blog Card -->
+  <a href="https://your-blog-link.com">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=adamaarbouba&repo=YOUR-BLOG-REPO&theme=radical&bg_color=0D1117&title_color=FF00FF&text_color=FFFFFF&icon_color=FF00FF" />
   </a>
 
 </p>
@@ -85,18 +78,7 @@
   <a href="https://discord.com/users/_goblen"><img src="https://img.shields.io/badge/Discord-1E1E2E?style=for-the-badge&logo=discord&logoColor=5865F2"></a>
 </p>
 
-
----
-
-## ✍️ Blog & Portfolio  
-- [🌐 Portfolio](https://your-portfolio-link.com)  
-- [📝 Blog](https://your-blog-link.com)  
-
----
-
 <!-- Neon Divider -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%">
 </p>
-
-✨ _Make it glow. Make it yours._ ✨
