@@ -19,14 +19,8 @@
 
 ## 👨‍💻 About Me  
 <p align="center">
-  <svg width="100%" height="80" viewBox="0 0 600 80">
-    <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="none" stroke="#00FFFF" stroke-width="1.5" font-size="24" font-family="monospace">
-      Hi, I’m Adam Aarbouba!
-    </text>
-    <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="#FF00FF" font-size="24" font-family="monospace" opacity="0.5">
-      Aspiring Web Developer | JS & React
-    </text>
-  </svg>
+  <img src="https://img.shields.io/badge/Hi,_I’m_Adam_Aarbouba-1E1E2E?style=for-the-badge&logo=appveyor&logoColor=00FFFF" />
+  <img src="https://img.shields.io/badge/Aspiring_Web_Developer-1E1E2E?style=for-the-badge&logo=react&logoColor=FF00FF" />
 </p>
 
 <p align="center" style="color:#FFFFFF;">
@@ -35,6 +29,7 @@
   My goal is to create <strong>impactful, well-designed applications</strong> that people actually enjoy using.  
   Outside of coding, I’m into <strong>music, beatboxing</strong>, and tinkering with <strong>Linux/Arch setups</strong>.
 </p>
+
 
 ---
 
