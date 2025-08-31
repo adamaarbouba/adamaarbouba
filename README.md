@@ -45,12 +45,12 @@
 
   <!-- Portfolio Card -->
   <a href="https://your-portfolio-link.com">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=adamaarbouba&repo=YOUR-PORTFOLIO-REPO&theme=radical&bg_color=0D1117&title_color=00FFFF&text_color=FFFFFF&icon_color=00FFFF" />
+    <!--img src="https://github-readme-stats.vercel.app/api/pin/?username=adamaarbouba&repo=YOUR-PORTFOLIO-REPO&theme=radical&bg_color=0D1117&title_color=00FFFF&text_color=FFFFFF&icon_color=00FFFF" />
   </a>
 
   <!-- Blog Card -->
   <a href="https://your-blog-link.com">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=adamaarbouba&repo=YOUR-BLOG-REPO&theme=radical&bg_color=0D1117&title_color=FF00FF&text_color=FFFFFF&icon_color=FF00FF" />
+    <!-- img src="https://github-readme-stats.vercel.app/api/pin/?username=adamaarbouba&repo=YOUR-BLOG-REPO&theme=radical&bg_color=0D1117&title_color=FF00FF&text_color=FFFFFF&icon_color=FF00FF" --/>
   </a>
 
 </p>
