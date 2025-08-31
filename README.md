@@ -72,7 +72,6 @@
 <p align="center">
   <a href="https://github.com/adamaarbouba"><img src="https://img.shields.io/badge/GitHub-1E1E2E?style=for-the-badge&logo=github&logoColor=FFFFFF"></a>
   <a href="https://www.linkedin.com/in/adam-aarbouba"><img src="https://img.shields.io/badge/LinkedIn-1E1E2E?style=for-the-badge&logo=linkedin&logoColor=00ADEF"></a>
-  <a href="mailto:adamaarbouba@gmail.com"><img src="https://img.shields.io/badge/Email-1E1E2E?style=for-the-badge&logo=gmail&logoColor=FF0000"></a>
   <a href="https://www.instagram.com/adam_rainfall/"><img src="https://img.shields.io/badge/Instagram-1E1E2E?style=for-the-badge&logo=instagram&logoColor=E1306C"></a>
   <a href="https://discord.com/users/_goblen"><img src="https://img.shields.io/badge/Discord-1E1E2E?style=for-the-badge&logo=discord&logoColor=5865F2"></a>
 </p>
