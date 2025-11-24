@@ -50,7 +50,5 @@ I enjoy building responsive, user-friendly websites and continuously improving m
 </p>
 
 <p align="center">
-  <a href="https://visitcount.itsvg.in">
-    <img src="https://visitcount.itsvg.in/api?id=adamaarbouba&icon=1&color=3" alt="Visitor Count"/>
-  </a>
+  <img src="https://komarev.com/ghpvc/?username=adamaarbouba&color=424769&style=for-the-badge&label=Sneak+Peek" alt="Visitor Count" />
 </p>
