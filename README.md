@@ -1,75 +1,61 @@
-<h1 align="center">💫 About Me</h1>
+<h1 align="center">Adam Aarbouba</h1>
 
+---
+
+<h2 align="center">About Me</h2>
+
+I’m a full stack developer student with a strong backend mindset.  
+I care about **clean architecture, structured data, and systems that make sense under pressure**.
+
+I enjoy working close to the metal when needed (C, SQL), but I’m just as comfortable building modern web apps with PHP, Laravel, and JavaScript.  
+My goal is simple: **build things that last, not things that just pass.**
+
+---
+
+<h2 align="center">Tech Stack</h2>
+
+<h3 align="center">Backend & Core</h3>
 <p align="center">
-👋 I’m a junior web developer studying at <a href="https://youcode.ma/"><b>YouCode</b></a>, learning <b>HTML, CSS, JavaScript</b>, and other essential web technologies.<br>
-I enjoy building responsive, user-friendly websites and continuously improving my skills to grow toward full-stack development.<br>
-🌱 Always exploring new tools and techniques to bring ideas to life through code.
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat&logo=laravel&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white"/>
 </p>
 
-<h2 align="center">🌐 Socials</h2>
+<h3 align="center">Frontend & Mobile</h3>
 <p align="center">
-  <a href="https://linkedin.com/in/adam-aarbouba">
-    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white"/>
 </p>
 
-<h2 align="center">💻 Tech Stack</h2>
-
-<p align="center"><b>Languages & Frameworks</b></p>
+<h3 align="center">Tools & Environment</h3>
 <p align="center">
-  <img src="https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/>
-  <img src="https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Tailwind_CSS-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
-  <img src="https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JavaScript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
-  <img src="https://img.shields.io/badge/C-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Lua-%232C2D72.svg?style=for-the-badge&logo=lua&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white"/>
 </p>
 
-<p align="center"><b>Design, Tools & Workflow</b></p>
+---
+
+<h2 align="center">GitHub Signals</h2>
+
 <p align="center">
-  <img src="https://img.shields.io/badge/Figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=canva&logoColor=white"/>
-  <img src="https://img.shields.io/badge/GIMP-657D8B?style=for-the-badge&logo=gimp&logoColor=FFFFFF"/>
-  <img src="https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white"/>
-  <img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/>
-</p>
-
-<h2 align="center">🚀 Featured Project</h2>
-
-<div align="center">
-  <h3>💼 WorkSphere Application</h3>
-  <p>A responsive web application designed for efficient task and workflow management.<br>
-  Built with a focus on user experience and clean code structure.</p>
-
-  <p>
-    <a href="https://github.com/adamaarbouba/WorkSphere_Application">
-      <img src="https://img.shields.io/badge/View_Code-121011?style=for-the-badge&logo=github&logoColor=white" alt="View Code"/>
-    </a>
-    <a href="https://adamaarbouba.github.io/WorkSphere_Application/">
-      <img src="https://img.shields.io/badge/Live_Demo-0077B5?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Live Demo"/>
-    </a>
-  </p>
-  
-  <p>
-    <code>HTML5</code> <code>CSS3</code> <code>JavaScript</code>
-  </p>
-</div>
-<br>
-
-<h2 align="center">📊 GitHub Stats</h2>
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=adamaarbouba&theme=dark&hide_border=true&show_icons=true" height="180" alt="stats graph" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=adamaarbouba&theme=dark&hide_border=true&layout=donut" height="180" alt="languages graph" />
-</p>
-
-<h2 align="center">✍️ Random Dev Quote</h2>
-<p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=vertical&theme=dark"/>
+  <img src="https://img.shields.io/badge/Commits-Consistent-5e81ac?style=flat"/>
+  <img src="https://img.shields.io/badge/Learning-Curiosity_Driven-81a1c1?style=flat"/>
+  <img src="https://img.shields.io/badge/Mindset-Build_First-8fbcbb?style=flat"/>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=adamaarbouba&color=424769&style=for-the-badge&label=Profile+Views" alt="Visitor Count" />
+  <img src="https://streak-stats.demolab.com?user=adamaarbouba&hide_border=true"/>
 </p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=adamaarbouba&hide_border=true&show_icons=true"/>
+</p>
+
