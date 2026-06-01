@@ -5,16 +5,16 @@
 
     <!-- Gradient spanning the full block row (64 → 736) -->
     <linearGradient id="g" x1="64" y1="0" x2="736" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0%"   stop-color="#FF2D78"/>
-      <stop offset="50%"  stop-color="#9D4EDD"/>
-      <stop offset="100%" stop-color="#00F5FF"/>
+      <stop offset="0%"   stop-color="#A4133C"/>
+      <stop offset="50%"  stop-color="#C9184A"/>
+      <stop offset="100%" stop-color="#FF4D6D"/>
     </linearGradient>
 
     <!-- Gradient for the name text -->
     <linearGradient id="tg" x1="160" y1="0" x2="640" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0%"   stop-color="#FF2D78"/>
-      <stop offset="50%"  stop-color="#9D4EDD"/>
-      <stop offset="100%" stop-color="#00F5FF"/>
+      <stop offset="0%"   stop-color="#A4133C"/>
+      <stop offset="50%"  stop-color="#C9184A"/>
+      <stop offset="100%" stop-color="#FF4D6D"/>
     </linearGradient>
 
     <!-- Glow filter (GitHub keeps feGaussianBlur + feMerge) -->
@@ -171,13 +171,13 @@
     font-family="'Courier New', 'Lucida Console', monospace"
     font-size="11"
     letter-spacing="7"
-    fill="#9D4EDD"
+    fill="#C9184A"
     opacity="0"
   >FULL STACK &amp; AI DEVELOPER
     <!-- fade in -->
     <animate attributeName="opacity" values="0;0.85" dur="1s" begin="0.9s" fill="freeze" repeatCount="1"/>
     <!-- then breathe between violet and cyan -->
-    <animate attributeName="fill" values="#9D4EDD;#00F5FF;#9D4EDD" dur="3s" begin="2s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1" keyTimes="0;0.5;1"/>
+    <animate attributeName="fill" values="#C9184A;#FF4D6D;#C9184A" dur="3s" begin="2s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1" keyTimes="0;0.5;1"/>
     <animate attributeName="opacity" values="0.85;1;0.85" dur="3s" begin="2s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1" keyTimes="0;0.5;1"/>
   </text>
 
