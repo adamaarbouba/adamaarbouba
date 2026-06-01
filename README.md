@@ -1,65 +1,47 @@
-<!--
-â•”â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•—
-â•‘  ADAM AARBOUBA â€” GITHUB PROFILE README v5.0                     â•‘
-â•‘  Palette: Charcoal #1A1A1A | Crimson #A4133C                   â•‘
-â•‘           Wine #C9184A | Bright #FF4D6D | Blush #FFB3C1        â•‘
-â•‘  Layout:  3-col Ã— 2-row grid, full-width metrics               â•‘
-â•šâ•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
--->
 
-<!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
-     HERO BANNER â€” Custom Animated SMIL SVG
-     â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+
 <p align="center">
-  <img src="./assets/hero-banner.svg" alt="Adam Aarbouba â€” Full Stack &amp; AI Developer" width="800" />
+<!-- [1] HERO BANNER - assets/hero-banner.svg -->
+  <img src="./assets/hero-banner.svg" alt="Adam Aarbouba - Full Stack &amp; AI Developer" width="800" />
 </p>
 
-<!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
-     ROTATING TAGLINE â€” typewriter loop
-     â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
 <p align="center">
   <picture>
+<!-- [2] ROTATING TAGLINE - typewriter loop -->
     <source media="(prefers-color-scheme: dark)"  srcset="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=500&size=16&duration=2200&pause=1400&color=C9184A&center=true&vCenter=true&width=620&lines=Building+AI-powered+backends...;Wiring+RAG+pipelines+with+FastAPI...;Low-level+C+to+cloud-scale+Python...;1337+%E2%86%92+YouCode+UM6P+%E2%86%92+production_" />
     <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=500&size=16&duration=2200&pause=1400&color=A4133C&center=true&vCenter=true&width=620&lines=Building+AI-powered+backends...;Wiring+RAG+pipelines+with+FastAPI...;Low-level+C+to+cloud-scale+Python...;1337+%E2%86%92+YouCode+UM6P+%E2%86%92+production_" />
-    <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=500&size=16&duration=2200&pause=1400&color=C9184A&center=true&vCenter=true&width=620&lines=Building+AI-powered+backends...;Wiring+RAG+pipelines+with+FastAPI...;Low-level+C+to+cloud-scale+Python...;1337+%E2%86%92+YouCode+UM6P+%E2%86%92+production_" alt="Rotating taglines: Building AI-powered backends. Wiring RAG pipelines with FastAPI. Low-level C to cloud-scale Python. 1337 â†’ YouCode UM6P â†’ production." width="100%" />
+    <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=500&size=16&duration=2200&pause=1400&color=C9184A&center=true&vCenter=true&width=620&lines=Building+AI-powered+backends...;Wiring+RAG+pipelines+with+FastAPI...;Low-level+C+to+cloud-scale+Python...;1337+%E2%86%92+YouCode+UM6P+%E2%86%92+production_" alt="Rotating taglines: Building AI-powered backends. Wiring RAG pipelines with FastAPI. Low-level C to cloud-scale Python. 1337 -> YouCode UM6P -> production." width="100%" />
   </picture>
 </p>
 
-<!-- ══════════════════════════════════════════════════
-     ABOUT ME — custom terminal SVG
-     ══════════════════════════════════════════════════ -->
 <p align="center">
+<!-- [3] ABOUT ME - custom terminal SVG -->
   <img src="./assets/about-terminal.svg" alt="Terminal: Adam Aarbouba profile" width="780" />
 </p>
 
-<!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
-     SECTION HEADER â€” TECH STACK
-     â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
 <p align="center">
   <picture>
+<!-- [4] TECH STACK HEADER -->
     <source media="(prefers-color-scheme: dark)"  srcset="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=14&duration=1&pause=99999&color=A4133C&center=true&vCenter=true&repeat=false&width=780&lines=%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80+%3A%3A+TECH+STACK+%3A%3A+%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80" />
     <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=14&duration=1&pause=99999&color=A4133C&center=true&vCenter=true&repeat=false&width=780&lines=%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80+%3A%3A+TECH+STACK+%3A%3A+%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80" />
     <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=14&duration=1&pause=99999&color=A4133C&center=true&vCenter=true&repeat=false&width=780&lines=%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80+%3A%3A+TECH+STACK+%3A%3A+%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80" alt="â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ :: TECH STACK :: â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€" width="100%" />
   </picture>
 </p>
 
-<!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
-     TECH STACK â€” ROW 1 (3 columns)
-     Zero blank lines inside table â€” GitHub parser rule
-     â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+<!-- [5] TECH STACK ROW 1 - AI & DATA | BACKEND | FRONTEND -->
 <table width="100%" cellspacing="0" cellpadding="6">
 <tr>
 <td width="33%" valign="top" align="center">
-<img src="https://img.shields.io/badge/%E2%96%A0_AI_%26_DATA-FF4D6D?style=for-the-badge&labelColor=1A1A1A&color=1A1A1A&logo=openai&logoColor=FF4D6D" alt="AI &amp; DATA" width="100%" /><br><br>
+<img src="https://img.shields.io/badge/%E2%96%A0_AI_%26_DATA-FF4D6D?style=for-the-badge&labelColor=1A1A1A&color=1A1A1A&logo=githubcopilot&logoColor=FF4D6D" alt="AI &amp; DATA" width="100%" /><br><br>
 <img src="https://img.shields.io/badge/Python-1A1A1A?style=flat-square&logo=python&logoColor=FF4D6D" alt="Python" />
 <img src="https://img.shields.io/badge/FastAPI-1A1A1A?style=flat-square&logo=fastapi&logoColor=FF4D6D" alt="FastAPI" />
-<img src="https://img.shields.io/badge/LangChain-1A1A1A?style=flat-square&logo=langchain&logoColor=FF4D6D" alt="LangChain" />
-<img src="https://img.shields.io/badge/RAG-1A1A1A?style=flat-square&logo=searxng&logoColor=FF4D6D" alt="RAG" />
+<img src="https://img.shields.io/badge/LangChain-1A1A1A?style=flat-square&logo=chainlink&logoColor=FF4D6D" alt="LangChain" />
+<img src="https://img.shields.io/badge/RAG-1A1A1A?style=flat-square" alt="RAG" />
 <img src="https://img.shields.io/badge/PostgreSQL-1A1A1A?style=flat-square&logo=postgresql&logoColor=FF4D6D" alt="PostgreSQL" />
 <img src="https://img.shields.io/badge/MySQL-1A1A1A?style=flat-square&logo=mysql&logoColor=FF4D6D" alt="MySQL" />
 </td>
 <td width="33%" valign="top" align="center">
-<img src="https://img.shields.io/badge/%E2%96%A0_BACKEND-A4133C?style=for-the-badge&labelColor=1A1A1A&color=1A1A1A&logo=server&logoColor=A4133C" alt="BACKEND" width="100%" /><br><br>
+<img src="https://img.shields.io/badge/%E2%96%A0_BACKEND-A4133C?style=for-the-badge&labelColor=1A1A1A&color=1A1A1A&logo=laravel&logoColor=A4133C" alt="BACKEND" width="100%" /><br><br>
 <img src="https://img.shields.io/badge/Laravel-1A1A1A?style=flat-square&logo=laravel&logoColor=A4133C" alt="Laravel" />
 <img src="https://img.shields.io/badge/PHP-1A1A1A?style=flat-square&logo=php&logoColor=A4133C" alt="PHP" />
 <img src="https://img.shields.io/badge/C-1A1A1A?style=flat-square&logo=c&logoColor=A4133C" alt="C" />
@@ -75,10 +57,8 @@
 </td>
 </tr>
 </table>
-<!-- --------------------------------------------------
-     TECH STACK — ROW 2 (3 columns)
-     LANGUAGES replaced with TOOLS | FOCUS badges fixed
-     -------------------------------------------------- -->
+
+<!-- [6] TECH STACK ROW 2 - DEVOPS | TOOLS | FOCUS -->
 <table width="100%" cellspacing="0" cellpadding="6">
 <tr>
 <td width="33%" valign="top" align="center">
@@ -92,34 +72,32 @@
 <td width="33%" valign="top" align="center">
 <img src="https://img.shields.io/badge/%E2%96%A0_TOOLS-FF4D6D?style=for-the-badge&labelColor=1A1A1A&color=1A1A1A&logo=hackthebox&logoColor=FF4D6D" alt="TOOLS" width="100%" /><br><br>
 <img src="https://img.shields.io/badge/pgvector-1A1A1A?style=flat-square&logo=postgresql&logoColor=FF4D6D" alt="pgvector" />
-<img src="https://img.shields.io/badge/Ollama-1A1A1A?style=flat-square&logo=ollama&logoColor=FF4D6D" alt="Ollama" />
+<img src="https://img.shields.io/badge/Ollama-1A1A1A?style=flat-square&logo=meta&logoColor=FF4D6D" alt="Ollama" />
 <img src="https://img.shields.io/badge/Redis-1A1A1A?style=flat-square&logo=redis&logoColor=FF4D6D" alt="Redis" />
 <img src="https://img.shields.io/badge/Swagger-1A1A1A?style=flat-square&logo=swagger&logoColor=FF4D6D" alt="Swagger" />
 <img src="https://img.shields.io/badge/JWT-1A1A1A?style=flat-square&logo=jsonwebtokens&logoColor=FF4D6D" alt="JWT" />
 <img src="https://img.shields.io/badge/Postman-1A1A1A?style=flat-square&logo=postman&logoColor=FF4D6D" alt="Postman" />
 </td>
 <td width="33%" valign="top" align="center">
-<img src="https://img.shields.io/badge/%E2%96%A0_FOCUS-C9184A?style=for-the-badge&labelColor=1A1A1A&color=1A1A1A&logo=rocket&logoColor=C9184A" alt="CURRENT FOCUS" width="100%" /><br><br>
-<img src="https://img.shields.io/badge/%E2%96%B8_RAG_Pipelines-FFB3C1?style=flat-square&color=1A1A1A&labelColor=A4133C" alt="RAG Pipelines" />
-<img src="https://img.shields.io/badge/%E2%96%B8_Vector_DBs-FFB3C1?style=flat-square&color=1A1A1A&labelColor=A4133C" alt="Vector DBs" />
-<img src="https://img.shields.io/badge/%E2%96%B8_AI_Agent_Tooling-FFB3C1?style=flat-square&color=1A1A1A&labelColor=A4133C" alt="AI Agent Tooling" />
-<img src="https://img.shields.io/badge/%E2%96%B8_Prod_Deployment-FFB3C1?style=flat-square&color=1A1A1A&labelColor=A4133C" alt="Production Deployment" />
+<img src="https://img.shields.io/badge/%E2%96%A0_FOCUS-A4133C?style=for-the-badge&labelColor=1A1A1A&color=1A1A1A&logo=githubcopilot&logoColor=C9184A" alt="CURRENT FOCUS" width="100%" /><br><br>
+<img src="https://img.shields.io/badge/%E2%96%B8_RAG_Pipelines-A4133C?style=flat-square" alt="RAG Pipelines" />
+<img src="https://img.shields.io/badge/%E2%96%B8_Vector_DBs-A4133C?style=flat-square" alt="Vector DBs" />
+<img src="https://img.shields.io/badge/%E2%96%B8_AI_Agent_Tooling-A4133C?style=flat-square" alt="AI Agent Tooling" />
+<img src="https://img.shields.io/badge/%E2%96%B8_Prod_Deployment-A4133C?style=flat-square" alt="Production Deployment" />
 </td>
 </tr>
 </table>
 
-<!-- --------------------------------------------------
-     SECTION HEADER — GITHUB METRICS
-     -------------------------------------------------- -->
 <p align="center">
   <picture>
+<!-- [8] GITHUB METRICS HEADER -->
     <source media="(prefers-color-scheme: dark)"  srcset="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=14&duration=1&pause=99999&color=A4133C&center=true&vCenter=true&repeat=false&width=780&lines=%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80+%3A%3A+GITHUB+METRICS+%3A%3A+%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80" />
     <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=14&duration=1&pause=99999&color=A4133C&center=true&vCenter=true&repeat=false&width=780&lines=%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80+%3A%3A+GITHUB+METRICS+%3A%3A+%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80" />
     <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=14&duration=1&pause=99999&color=A4133C&center=true&vCenter=true&repeat=false&width=780&lines=%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80+%3A%3A+GITHUB+METRICS+%3A%3A+%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80" alt="---------- :: GITHUB METRICS :: ----------" width="100%" />
   </picture>
 </p>
 
-<!-- METRICS — streak left | activity graph right -->
+<!-- [7] METRICS TABLE - streak | activity graph -->
 <table width="100%" cellspacing="0" cellpadding="6">
 <tr>
 <td width="45%" valign="top" align="center">
@@ -131,29 +109,24 @@
 </tr>
 </table>
 
-
-<!-- --------------------------------------------------
-     CONNECT — social / contact badges
-     -------------------------------------------------- -->
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)"  srcset="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=14&duration=1&pause=99999&color=A4133C&center=true&vCenter=true&repeat=false&width=780&lines=%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80+%3A%3A+CONNECT+%3A%3A+%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80" />
     <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=14&duration=1&pause=99999&color=A4133C&center=true&vCenter=true&repeat=false&width=780&lines=%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80+%3A%3A+CONNECT+%3A%3A+%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80" />
+<!-- [9] CONNECT -->
     <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=14&duration=1&pause=99999&color=A4133C&center=true&vCenter=true&repeat=false&width=780&lines=%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80+%3A%3A+CONNECT+%3A%3A+%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80" alt="---------- :: CONNECT :: ----------" width="100%" />
   </picture>
 </p>
 <p align="center">
-  <a href="https://linkedin.com/in/adam-aarbouba"><img src="https://img.shields.io/badge/LinkedIn-1A1A1A?style=for-the-badge&logo=linkedin&logoColor=FF4D6D&labelColor=1A1A1A" alt="LinkedIn" /></a>
+  <a href="www.linkedin.com/in/adam-aarbouba"><img src="https://img.shields.io/badge/LinkedIn-1A1A1A?style=for-the-badge&logo=linkedin&logoColor=FF4D6D&labelColor=1A1A1A" alt="LinkedIn" /></a>
   &nbsp;
   <a href="https://adamaarbouba.dev"><img src="https://img.shields.io/badge/Portfolio-1A1A1A?style=for-the-badge&logo=vercel&logoColor=A4133C&labelColor=1A1A1A" alt="Portfolio" /></a>
   &nbsp;
   <a href="https://github.com/adamaarbouba"><img src="https://img.shields.io/badge/GitHub-1A1A1A?style=for-the-badge&logo=github&logoColor=C9184A&labelColor=1A1A1A" alt="GitHub" /></a>
 </p>
 
-<!-- --------------------------------------------------
-     FOOTER BADGES — views / followers / stars (fixed)
-     -------------------------------------------------- -->
 <p align="center">
+<!-- [10] FOOTER BADGES - views | followers | stars -->
   <img src="https://komarev.com/ghpvc/?username=adamaarbouba&color=A4133C&style=flat-square&label=PROFILE+VIEWS" alt="Total profile view count for adamaarbouba" />
   &nbsp;
   <img src="https://img.shields.io/github/followers/adamaarbouba?label=FOLLOWERS&style=flat-square&color=1A1A1A&logo=github&logoColor=FF4D6D&labelColor=A4133C" alt="GitHub followers count" />
@@ -161,12 +134,8 @@
   <img src="https://img.shields.io/github/stars/adamaarbouba?label=TOTAL+STARS&style=flat-square&color=1A1A1A&logo=github&logoColor=FF4D6D&labelColor=A4133C" alt="Total GitHub stars" />
 </p>
 
-<!-- ══════════════════════════════════════════════════
-     FOOTER BAR — Animated block bar (mirrors hero)
-     ══════════════════════════════════════════════════ -->
 <p align="center">
+<!-- [11] FOOTER BAR - assets/footer-bar.svg -->
   <img src="./assets/footer-bar.svg" alt="" width="800" />
 </p>
-
-
 
