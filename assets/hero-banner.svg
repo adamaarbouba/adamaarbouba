@@ -1,204 +1,184 @@
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  width="800"
-  height="150"
-  viewBox="0 0 800 150"
-  role="img"
-  aria-label="Adam Aarbouba – Full Stack & AI Developer"
->
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="150" viewBox="0 0 800 150" role="img" aria-label="Adam Aarbouba – Full Stack &amp; AI Developer">
   <title>Adam Aarbouba – Full Stack &amp; AI Developer</title>
 
   <defs>
-    <!-- Master gradient across the full block sequence width -->
-    <linearGradient id="blockGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+
+    <!-- Gradient spanning the full block row (64 → 736) -->
+    <linearGradient id="g" x1="64" y1="0" x2="736" y2="0" gradientUnits="userSpaceOnUse">
       <stop offset="0%"   stop-color="#FF2D78"/>
       <stop offset="50%"  stop-color="#9D4EDD"/>
       <stop offset="100%" stop-color="#00F5FF"/>
     </linearGradient>
 
-    <!-- Glow filter for the text -->
-    <filter id="glowText" x="-20%" y="-40%" width="140%" height="180%">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+    <!-- Gradient for the name text -->
+    <linearGradient id="tg" x1="160" y1="0" x2="640" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%"   stop-color="#FF2D78"/>
+      <stop offset="50%"  stop-color="#9D4EDD"/>
+      <stop offset="100%" stop-color="#00F5FF"/>
+    </linearGradient>
+
+    <!-- Glow filter (GitHub keeps feGaussianBlur + feMerge) -->
+    <filter id="glow" x="-20%" y="-60%" width="140%" height="220%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
 
-    <!-- Subtle glow for each lit block -->
-    <filter id="glowBlock" x="-30%" y="-80%" width="160%" height="360%">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="2.5" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+    <!-- Text glow -->
+    <filter id="tglow" x="-10%" y="-60%" width="120%" height="220%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
 
-    <!-- Clip rect that maps the full 800 px width onto the gradient rect -->
-    <clipPath id="barClip">
-      <rect x="62" y="28" width="676" height="18" rx="2"/>
+    <!-- Clip scanner to the bar zone -->
+    <clipPath id="clip">
+      <rect x="64" y="27" width="672" height="20"/>
     </clipPath>
+
   </defs>
 
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;display=swap');
+  <!-- ══════════════════════════════════════════
+       BLOCKS  —  26 × (w22 h18 rx2 step26)
+       x = 64 + i*26
+       SMIL animate on opacity, stagger 0.09s
+       ══════════════════════════════════════════ -->
+  <g filter="url(#glow)">
 
-    /* ---------- block base ---------- */
-    .blk {
-      rx: 2px;
-      /* each block is 22 px wide × 18 px tall, gap 4 px → step = 26 px */
-    }
+    <!-- Dissolve-fade LEFT edge -->
+    <rect x="64"  y="28" width="22" height="18" rx="2" fill="url(#g)" opacity="0.05">
+      <animate attributeName="opacity" values="0.05;0.9;0.05" dur="2.4s" begin="0.00s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1" keyTimes="0;0.5;1"/>
+    </rect>
+    <rect x="90"  y="28" width="22" height="18" rx="2" fill="url(#g)" opacity="0.10">
+      <animate attributeName="opacity" values="0.10;0.95;0.10" dur="2.4s" begin="0.09s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1" keyTimes="0;0.5;1"/>
+    </rect>
+    <rect x="116" y="28" width="22" height="18" rx="2" fill="url(#g)" opacity="0.18">
+      <animate attributeName="opacity" values="0.18;1;0.18" dur="2.4s" begin="0.18s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1" keyTimes="0;0.5;1"/>
+    </rect>
+    <rect x="142" y="28" width="22" height="18" rx="2" fill="url(#g)" opacity="0.28">
+      <animate attributeName="opacity" values="0.28;1;0.28" dur="2.4s" begin="0.27s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1" keyTimes="0;0.5;1"/>
+    </rect>
+    <rect x="168" y="28" width="22" height="18" rx="2" fill="url(#g)" opacity="0.40">
+      <animate attributeName="opacity" values="0.40;1;0.40" dur="2.4s" begin="0.36s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1" keyTimes="0;0.5;1"/>
+    </rect>
+    <rect x="194" y="28" width="22" height="18" rx="2" fill="url(#g)" opacity="0.55">
+      <animate attributeName="opacity" values="0.55;1;0.55" dur="2.4s" begin="0.45s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1" keyTimes="0;0.5;1"/>
+    </rect>
+    <rect x="220" y="28" width="22" height="18" rx="2" fill="url(#g)" opacity="0.70">
+      <animate attributeName="opacity" values="0.70;1;0.70" dur="2.4s" begin="0.54s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1" keyTimes="0;0.5;1"/>
+    </rect>
+    <rect x="246" y="28" width="22" height="18" rx="2" fill="url(#g)" opacity="0.82">
+      <animate attributeName="opacity" values="0.82;1;0.82" dur="2.4s" begin="0.63s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1" keyTimes="0;0.5;1"/>
+    </rect>
 
-    /* ---------- pulse keyframes ---------- */
-    @keyframes pulse {
-      0%,100% { opacity: var(--base-op); filter: brightness(1);   }
-      50%      { opacity: 1;             filter: brightness(1.6) url(#glowBlock); }
-    }
+    <!-- Solid CENTER blocks — breathe between 0.60 and 1 -->
+    <rect x="272" y="28" width="22" height="18" rx="2" fill="url(#g)" opacity="1">
+      <animate attributeName="opacity" values="0.60;1;0.60" dur="2.4s" begin="0.72s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1" keyTimes="0;0.5;1"/>
+    </rect>
+    <rect x="298" y="28" width="22" height="18" rx="2" fill="url(#g)" opacity="1">
+      <animate attributeName="opacity" values="0.60;1;0.60" dur="2.4s" begin="0.81s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1" keyTimes="0;0.5;1"/>
+    </rect>
+    <rect x="324" y="28" width="22" height="18" rx="2" fill="url(#g)" opacity="1">
+      <animate attributeName="opacity" values="0.60;1;0.60" dur="2.4s" begin="0.90s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1" keyTimes="0;0.5;1"/>
+    </rect>
+    <rect x="350" y="28" width="22" height="18" rx="2" fill="url(#g)" opacity="1">
+      <animate attributeName="opacity" values="0.60;1;0.60" dur="2.4s" begin="0.99s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1" keyTimes="0;0.5;1"/>
+    </rect>
+    <rect x="376" y="28" width="22" height="18" rx="2" fill="url(#g)" opacity="1">
+      <animate attributeName="opacity" values="0.60;1;0.60" dur="2.4s" begin="1.08s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1" keyTimes="0;0.5;1"/>
+    </rect>
+    <rect x="402" y="28" width="22" height="18" rx="2" fill="url(#g)" opacity="1">
+      <animate attributeName="opacity" values="0.60;1;0.60" dur="2.4s" begin="1.17s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1" keyTimes="0;0.5;1"/>
+    </rect>
+    <rect x="428" y="28" width="22" height="18" rx="2" fill="url(#g)" opacity="1">
+      <animate attributeName="opacity" values="0.60;1;0.60" dur="2.4s" begin="1.26s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1" keyTimes="0;0.5;1"/>
+    </rect>
+    <rect x="454" y="28" width="22" height="18" rx="2" fill="url(#g)" opacity="1">
+      <animate attributeName="opacity" values="0.60;1;0.60" dur="2.4s" begin="1.35s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1" keyTimes="0;0.5;1"/>
+    </rect>
+    <rect x="480" y="28" width="22" height="18" rx="2" fill="url(#g)" opacity="1">
+      <animate attributeName="opacity" values="0.60;1;0.60" dur="2.4s" begin="1.44s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1" keyTimes="0;0.5;1"/>
+    </rect>
+    <rect x="506" y="28" width="22" height="18" rx="2" fill="url(#g)" opacity="1">
+      <animate attributeName="opacity" values="0.60;1;0.60" dur="2.4s" begin="1.53s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1" keyTimes="0;0.5;1"/>
+    </rect>
+    <rect x="532" y="28" width="22" height="18" rx="2" fill="url(#g)" opacity="1">
+      <animate attributeName="opacity" values="0.60;1;0.60" dur="2.4s" begin="1.62s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1" keyTimes="0;0.5;1"/>
+    </rect>
+    <rect x="558" y="28" width="22" height="18" rx="2" fill="url(#g)" opacity="1">
+      <animate attributeName="opacity" values="0.60;1;0.60" dur="2.4s" begin="1.71s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1" keyTimes="0;0.5;1"/>
+    </rect>
+    <rect x="584" y="28" width="22" height="18" rx="2" fill="url(#g)" opacity="1">
+      <animate attributeName="opacity" values="0.60;1;0.60" dur="2.4s" begin="1.80s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1" keyTimes="0;0.5;1"/>
+    </rect>
+    <rect x="610" y="28" width="22" height="18" rx="2" fill="url(#g)" opacity="1">
+      <animate attributeName="opacity" values="0.60;1;0.60" dur="2.4s" begin="1.89s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1" keyTimes="0;0.5;1"/>
+    </rect>
 
-    /* ---------- scanner / data-stream sweep ---------- */
-    @keyframes scanRight {
-      0%   { transform: translateX(-676px); opacity: 0.9; }
-      100% { transform: translateX(676px);  opacity: 0.9; }
-    }
+    <!-- Dissolve-fade RIGHT edge -->
+    <rect x="636" y="28" width="22" height="18" rx="2" fill="url(#g)" opacity="0.82">
+      <animate attributeName="opacity" values="0.82;1;0.82" dur="2.4s" begin="1.98s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1" keyTimes="0;0.5;1"/>
+    </rect>
+    <rect x="662" y="28" width="22" height="18" rx="2" fill="url(#g)" opacity="0.70">
+      <animate attributeName="opacity" values="0.70;1;0.70" dur="2.4s" begin="2.07s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1" keyTimes="0;0.5;1"/>
+    </rect>
+    <rect x="688" y="28" width="22" height="18" rx="2" fill="url(#g)" opacity="0.55">
+      <animate attributeName="opacity" values="0.55;1;0.55" dur="2.4s" begin="2.16s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1" keyTimes="0;0.5;1"/>
+    </rect>
+    <rect x="714" y="28" width="22" height="18" rx="2" fill="url(#g)" opacity="0.28">
+      <animate attributeName="opacity" values="0.28;0.9;0.28" dur="2.4s" begin="2.25s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1" keyTimes="0;0.5;1"/>
+    </rect>
 
-    /* Assign staggered pulse to every block */
-    .blk { animation: pulse 2.4s ease-in-out infinite; }
-
-    .b00 { --base-op:0.05; animation-delay: 0.00s; }
-    .b01 { --base-op:0.10; animation-delay: 0.09s; }
-    .b02 { --base-op:0.18; animation-delay: 0.18s; }
-    .b03 { --base-op:0.28; animation-delay: 0.27s; }
-    .b04 { --base-op:0.40; animation-delay: 0.36s; }
-    .b05 { --base-op:0.55; animation-delay: 0.45s; }
-    .b06 { --base-op:0.70; animation-delay: 0.54s; }
-    .b07 { --base-op:0.82; animation-delay: 0.63s; }
-    .b08 { --base-op:1.00; animation-delay: 0.72s; }
-    .b09 { --base-op:1.00; animation-delay: 0.81s; }
-    .b10 { --base-op:1.00; animation-delay: 0.90s; }
-    .b11 { --base-op:1.00; animation-delay: 0.99s; }
-    .b12 { --base-op:1.00; animation-delay: 1.08s; }
-    .b13 { --base-op:1.00; animation-delay: 1.17s; }
-    .b14 { --base-op:1.00; animation-delay: 1.26s; }
-    .b15 { --base-op:1.00; animation-delay: 1.35s; }
-    .b16 { --base-op:1.00; animation-delay: 1.44s; }
-    .b17 { --base-op:1.00; animation-delay: 1.53s; }
-    .b18 { --base-op:1.00; animation-delay: 1.62s; }
-    .b19 { --base-op:1.00; animation-delay: 1.71s; }
-    .b20 { --base-op:1.00; animation-delay: 1.80s; }
-    .b21 { --base-op:1.00; animation-delay: 1.89s; }
-    .b22 { --base-op:0.82; animation-delay: 1.98s; }
-    .b23 { --base-op:0.70; animation-delay: 2.07s; }
-    .b24 { --base-op:0.55; animation-delay: 2.16s; }
-    .b25 { --base-op:0.40; animation-delay: 2.07s; }
-    .b26 { --base-op:0.28; animation-delay: 1.98s; }
-    /* mirror fade on right side delays loop back */
-
-    /* scanner overlay sweep */
-    .scanner { animation: scanRight 2.4s linear infinite; }
-
-    /* typography */
-    .name-text {
-      font-family: 'Share Tech Mono', 'Fira Code', 'Courier New', monospace;
-      font-size: 28px;
-      font-weight: 700;
-      fill: url(#blockGrad);
-      filter: url(#glowText);
-      letter-spacing: 4px;
-    }
-    .role-text {
-      font-family: 'Share Tech Mono', 'Fira Code', 'Courier New', monospace;
-      font-size: 11.5px;
-      fill: #9D4EDD;
-      letter-spacing: 6px;
-      opacity: 0.85;
-    }
-
-    @keyframes textFadeIn {
-      from { opacity: 0; transform: translateY(6px); }
-      to   { opacity: 1; transform: translateY(0);   }
-    }
-    .name-text { animation: textFadeIn 1.2s ease-out 0.3s both; }
-    .role-text { animation: textFadeIn 1.2s ease-out 0.7s both; }
-
-    @keyframes roleGlow {
-      0%,100% { opacity: 0.85; }
-      50%      { opacity: 1;    fill: #00F5FF; }
-    }
-    .role-text { animation: textFadeIn 1.2s ease-out 0.7s both, roleGlow 3s ease-in-out 1.5s infinite; }
-  </style>
-
-  <!-- ═══════════════════════════════════════════════
-       GRADIENT FILL LAYER (full bar width, clipped)
-       Each block rect sits on top with opacity masks
-       ═══════════════════════════════════════════════ -->
-
-  <!--
-    26 blocks total. Block width=22, gap=4, step=26.
-    Total span = 26*22 + 25*4 = 572 + 100 = 672 px.
-    Centered in 800: start_x = (800 - 672) / 2 = 64.
-    We use fill="url(#blockGrad)" on a full-width rect clipped to each block shape.
-    Simpler: paint each block rect with fill="url(#blockGrad)" with gradientUnits="userSpaceOnUse".
-  -->
-
-  <!-- Block sequence: x starts at 64, step 26, y=28, w=22, h=18 -->
-  <!-- opacity set inline via CSS class -->
-
-  <g filter="url(#glowBlock)">
-    <rect class="blk b00" x="64"  y="28" width="22" height="18" rx="2" fill="url(#blockGrad)" opacity="0.05"/>
-    <rect class="blk b01" x="90"  y="28" width="22" height="18" rx="2" fill="url(#blockGrad)" opacity="0.10"/>
-    <rect class="blk b02" x="116" y="28" width="22" height="18" rx="2" fill="url(#blockGrad)" opacity="0.18"/>
-    <rect class="blk b03" x="142" y="28" width="22" height="18" rx="2" fill="url(#blockGrad)" opacity="0.28"/>
-    <rect class="blk b04" x="168" y="28" width="22" height="18" rx="2" fill="url(#blockGrad)" opacity="0.40"/>
-    <rect class="blk b05" x="194" y="28" width="22" height="18" rx="2" fill="url(#blockGrad)" opacity="0.55"/>
-    <rect class="blk b06" x="220" y="28" width="22" height="18" rx="2" fill="url(#blockGrad)" opacity="0.70"/>
-    <rect class="blk b07" x="246" y="28" width="22" height="18" rx="2" fill="url(#blockGrad)" opacity="0.82"/>
-    <rect class="blk b08" x="272" y="28" width="22" height="18" rx="2" fill="url(#blockGrad)" opacity="1.00"/>
-    <rect class="blk b09" x="298" y="28" width="22" height="18" rx="2" fill="url(#blockGrad)" opacity="1.00"/>
-    <rect class="blk b10" x="324" y="28" width="22" height="18" rx="2" fill="url(#blockGrad)" opacity="1.00"/>
-    <rect class="blk b11" x="350" y="28" width="22" height="18" rx="2" fill="url(#blockGrad)" opacity="1.00"/>
-    <rect class="blk b12" x="376" y="28" width="22" height="18" rx="2" fill="url(#blockGrad)" opacity="1.00"/>
-    <rect class="blk b13" x="402" y="28" width="22" height="18" rx="2" fill="url(#blockGrad)" opacity="1.00"/>
-    <rect class="blk b14" x="428" y="28" width="22" height="18" rx="2" fill="url(#blockGrad)" opacity="1.00"/>
-    <rect class="blk b15" x="454" y="28" width="22" height="18" rx="2" fill="url(#blockGrad)" opacity="1.00"/>
-    <rect class="blk b16" x="480" y="28" width="22" height="18" rx="2" fill="url(#blockGrad)" opacity="1.00"/>
-    <rect class="blk b17" x="506" y="28" width="22" height="18" rx="2" fill="url(#blockGrad)" opacity="1.00"/>
-    <rect class="blk b18" x="532" y="28" width="22" height="18" rx="2" fill="url(#blockGrad)" opacity="1.00"/>
-    <rect class="blk b19" x="558" y="28" width="22" height="18" rx="2" fill="url(#blockGrad)" opacity="1.00"/>
-    <rect class="blk b20" x="584" y="28" width="22" height="18" rx="2" fill="url(#blockGrad)" opacity="1.00"/>
-    <rect class="blk b21" x="610" y="28" width="22" height="18" rx="2" fill="url(#blockGrad)" opacity="1.00"/>
-    <rect class="blk b22" x="636" y="28" width="22" height="18" rx="2" fill="url(#blockGrad)" opacity="0.82"/>
-    <rect class="blk b23" x="662" y="28" width="22" height="18" rx="2" fill="url(#blockGrad)" opacity="0.70"/>
-    <rect class="blk b24" x="688" y="28" width="22" height="18" rx="2" fill="url(#blockGrad)" opacity="0.55"/>
-    <rect class="blk b25" x="714" y="28" width="22" height="18" rx="2" fill="url(#blockGrad)" opacity="0.28"/>
   </g>
 
-  <!-- Scanner sweep: a thin bright vertical sliver that slides across -->
-  <g clip-path="url(#barClip)">
-    <rect class="scanner" x="62" y="28" width="22" height="18" rx="2"
-          fill="white" opacity="0.18"/>
+  <!-- ══════════════════════════════════════════
+       SCANNER SWEEP — white sliver, clipped
+       ══════════════════════════════════════════ -->
+  <g clip-path="url(#clip)">
+    <rect x="42" y="27" width="24" height="20" rx="2" fill="white" opacity="0">
+      <!-- fade in fast -->
+      <animate attributeName="opacity" values="0;0.22;0" dur="2.4s" begin="0s" repeatCount="indefinite" keyTimes="0;0.08;0.92" calcMode="spline" keySplines="0 0 1 1;0 0 1 1"/>
+      <!-- slide left → right across bar -->
+      <animateTransform attributeName="transform" type="translate"
+        from="22 0" to="718 0"
+        dur="2.4s" begin="0s" repeatCount="indefinite"/>
+    </rect>
   </g>
 
-  <!-- ═══════════════════
+  <!-- ══════════════════════════════════════════
        TYPOGRAPHY
-       ═══════════════════ -->
+       font-family falls back to system monospace
+       — no @import needed, works on GitHub
+       ══════════════════════════════════════════ -->
 
-  <!-- Name line -->
+  <!-- Name: gradient fill, glow filter, fade-in -->
   <text
-    class="name-text"
-    x="400"
-    y="94"
+    x="400" y="96"
     text-anchor="middle"
-    dominant-baseline="auto"
-  >ADAM AARBOUBA</text>
+    font-family="'Courier New', 'Lucida Console', monospace"
+    font-size="27"
+    font-weight="bold"
+    letter-spacing="5"
+    fill="url(#tg)"
+    filter="url(#tglow)"
+    opacity="0"
+  >ADAM AARBOUBA
+    <animate attributeName="opacity" values="0;1" dur="1s" begin="0.4s" fill="freeze" repeatCount="1"/>
+  </text>
 
-  <!-- Role line -->
+  <!-- Role: violet, letter-spaced, fade-in then gentle pulse -->
   <text
-    class="role-text"
-    x="400"
-    y="118"
+    x="400" y="121"
     text-anchor="middle"
-    dominant-baseline="auto"
-  >FULL STACK &amp; AI DEVELOPER</text>
+    font-family="'Courier New', 'Lucida Console', monospace"
+    font-size="11"
+    letter-spacing="7"
+    fill="#9D4EDD"
+    opacity="0"
+  >FULL STACK &amp; AI DEVELOPER
+    <!-- fade in -->
+    <animate attributeName="opacity" values="0;0.85" dur="1s" begin="0.9s" fill="freeze" repeatCount="1"/>
+    <!-- then breathe between violet and cyan -->
+    <animate attributeName="fill" values="#9D4EDD;#00F5FF;#9D4EDD" dur="3s" begin="2s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1" keyTimes="0;0.5;1"/>
+    <animate attributeName="opacity" values="0.85;1;0.85" dur="3s" begin="2s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1" keyTimes="0;0.5;1"/>
+  </text>
 
 </svg>
