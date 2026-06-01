@@ -1,0 +1,60 @@
+<svg width="800" height="60" viewBox="0 0 800 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradient spanning the full width -->
+    <linearGradient id="cyber" x1="0" y1="0" x2="800" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FF2D78"/>
+      <stop offset="50%" stop-color="#9D4EDD"/>
+      <stop offset="100%" stop-color="#00F5FF"/>
+    </linearGradient>
+
+    <!-- Layer 1: Dense Core -->
+    <pattern id="grid-dense" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect x="1" y="1" width="8" height="8" fill="url(#cyber)" rx="1"/>
+    </pattern>
+    
+    <!-- Layer 2: Medium Dispersion -->
+    <pattern id="grid-med" width="20" height="20" patternUnits="userSpaceOnUse">
+      <rect x="1" y="1" width="8" height="8" fill="url(#cyber)" rx="1"/>
+      <rect x="11" y="11" width="8" height="8" fill="url(#cyber)" rx="1"/>
+    </pattern>
+    
+    <!-- Layer 3: Sparse Floating Pixels -->
+    <pattern id="grid-sparse" width="40" height="40" patternUnits="userSpaceOnUse">
+      <rect x="5" y="5" width="8" height="8" fill="url(#cyber)" rx="1"/>
+      <rect x="25" y="25" width="8" height="8" fill="url(#cyber)" rx="1"/>
+      <rect x="15" y="35" width="8" height="8" fill="url(#cyber)" rx="1"/>
+      <rect x="35" y="15" width="8" height="8" fill="url(#cyber)" rx="1"/>
+    </pattern>
+
+    <!-- Fade Masks -->
+    <linearGradient id="mask-dense" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="35%" stop-color="black"/>
+      <stop offset="45%" stop-color="white"/>
+      <stop offset="55%" stop-color="white"/>
+      <stop offset="65%" stop-color="black"/>
+    </linearGradient>
+    
+    <linearGradient id="mask-med" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="20%" stop-color="black"/>
+      <stop offset="35%" stop-color="white"/>
+      <stop offset="65%" stop-color="white"/>
+      <stop offset="80%" stop-color="black"/>
+    </linearGradient>
+    
+    <linearGradient id="mask-sparse" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="black"/>
+      <stop offset="15%" stop-color="white"/>
+      <stop offset="85%" stop-color="white"/>
+      <stop offset="100%" stop-color="black"/>
+    </linearGradient>
+
+    <mask id="m-dense"><rect width="800" height="60" fill="url(#mask-dense)"/></mask>
+    <mask id="m-med"><rect width="800" height="60" fill="url(#mask-med)"/></mask>
+    <mask id="m-sparse"><rect width="800" height="60" fill="url(#mask-sparse)"/></mask>
+  </defs>
+
+  <!-- Render Layers (bottom to top) -->
+  <rect width="800" height="60" fill="url(#grid-sparse)" mask="url(#m-sparse)"/>
+  <rect width="800" height="60" fill="url(#grid-med)" mask="url(#m-med)"/>
+  <rect width="800" height="60" fill="url(#grid-dense)" mask="url(#m-dense)"/>
+</svg>
