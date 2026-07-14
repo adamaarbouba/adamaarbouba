@@ -1,13 +1,9 @@
-
-
 <p align="center">
-<!-- [1] HERO BANNER - assets/hero-banner.svg -->
   <img src="./assets/hero-banner.svg" alt="Adam Aarbouba - Full Stack &amp; AI Developer" width="800" />
 </p>
 
 <p align="center">
   <picture>
-<!-- [2] ROTATING TAGLINE - typewriter loop -->
     <source media="(prefers-color-scheme: dark)"  srcset="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=500&size=16&duration=2200&pause=1400&color=C9184A&center=true&vCenter=true&width=620&lines=Building+AI-powered+backends...;Wiring+RAG+pipelines+with+FastAPI...;Low-level+C+to+cloud-scale+Python...;1337+%E2%86%92+YouCode+UM6P+%E2%86%92+production_" />
     <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=500&size=16&duration=2200&pause=1400&color=A4133C&center=true&vCenter=true&width=620&lines=Building+AI-powered+backends...;Wiring+RAG+pipelines+with+FastAPI...;Low-level+C+to+cloud-scale+Python...;1337+%E2%86%92+YouCode+UM6P+%E2%86%92+production_" />
     <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=500&size=16&duration=2200&pause=1400&color=C9184A&center=true&vCenter=true&width=620&lines=Building+AI-powered+backends...;Wiring+RAG+pipelines+with+FastAPI...;Low-level+C+to+cloud-scale+Python...;1337+%E2%86%92+YouCode+UM6P+%E2%86%92+production_" alt="Rotating taglines: Building AI-powered backends. Wiring RAG pipelines with FastAPI. Low-level C to cloud-scale Python. 1337 -> YouCode UM6P -> production." width="100%" />
@@ -15,20 +11,17 @@
 </p>
 
 <p align="center">
-<!-- [3] ABOUT ME - custom terminal SVG -->
   <img src="./assets/about-terminal.svg" alt="Terminal: Adam Aarbouba profile" width="780" />
 </p>
 
 <p align="center">
   <picture>
-<!-- [4] TECH STACK HEADER -->
     <source media="(prefers-color-scheme: dark)"  srcset="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=14&duration=1&pause=99999&color=A4133C&center=true&vCenter=true&repeat=false&width=780&lines=%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80+%3A%3A+TECH+STACK+%3A%3A+%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80" />
     <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=14&duration=1&pause=99999&color=A4133C&center=true&vCenter=true&repeat=false&width=780&lines=%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80+%3A%3A+TECH+STACK+%3A%3A+%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80" />
     <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=14&duration=1&pause=99999&color=A4133C&center=true&vCenter=true&repeat=false&width=780&lines=%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80+%3A%3A+TECH+STACK+%3A%3A+%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80" alt="â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ :: TECH STACK :: â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€" width="100%" />
   </picture>
 </p>
 
-<!-- [5] TECH STACK ROW 1 - AI & DATA | BACKEND | FRONTEND -->
 <table width="100%" cellspacing="0" cellpadding="6">
 <tr>
 <td width="33%" valign="top" align="center">
@@ -58,7 +51,6 @@
 </tr>
 </table>
 
-<!-- [6] TECH STACK ROW 2 - DEVOPS | TOOLS | FOCUS -->
 <table width="100%" cellspacing="0" cellpadding="6">
 <tr>
 <td width="33%" valign="top" align="center">
@@ -84,20 +76,32 @@
 <img src="https://img.shields.io/badge/%E2%96%B8_Vector_DBs-A4133C?style=flat-square" alt="Vector DBs" />
 <img src="https://img.shields.io/badge/%E2%96%B8_AI_Agent_Tooling-A4133C?style=flat-square" alt="AI Agent Tooling" />
 <img src="https://img.shields.io/badge/%E2%96%B8_Prod_Deployment-A4133C?style=flat-square" alt="Production Deployment" />
+<img src="https://img.shields.io/badge/%E2%96%B8_Networking_(CCNA)-A4133C?style=flat-square" alt="Currently learning: Networking for CCNA" />
 </td>
 </tr>
 </table>
 
 <p align="center">
   <picture>
-<!-- [8] GITHUB METRICS HEADER -->
+    <source media="(prefers-color-scheme: dark)"  srcset="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=14&duration=1&pause=99999&color=A4133C&center=true&vCenter=true&repeat=false&width=780&lines=%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80+%3A%3A+PINNED+PROJECTS+%3A%3A+%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80" />
+    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=14&duration=1&pause=99999&color=A4133C&center=true&vCenter=true&repeat=false&width=780&lines=%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80+%3A%3A+PINNED+PROJECTS+%3A%3A+%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80" />
+    <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=14&duration=1&pause=99999&color=A4133C&center=true&vCenter=true&repeat=false&width=780&lines=%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80+%3A%3A+PINNED+PROJECTS+%3A%3A+%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80" alt="---------- :: PINNED PROJECTS :: ----------" width="100%" />
+  </picture>
+</p>
+
+<p align="center">
+  <a href="https://github.com/adamaarbouba/Nocturnal_Luxury"><img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=adamaarbouba&repo=Nocturnal_Luxury&theme=dark&bg_color=1A1A1A&border_color=A4133C&title_color=C9184A&text_color=FF4D6D&icon_color=A4133C" alt="Nocturnal_Luxury" /></a>
+  <a href="https://github.com/adamaarbouba/DebtSplit"><img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=adamaarbouba&repo=DebtSplit&theme=dark&bg_color=1A1A1A&border_color=A4133C&title_color=C9184A&text_color=FF4D6D&icon_color=A4133C" alt="DebtSplit" /></a>
+</p>
+
+<p align="center">
+  <picture>
     <source media="(prefers-color-scheme: dark)"  srcset="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=14&duration=1&pause=99999&color=A4133C&center=true&vCenter=true&repeat=false&width=780&lines=%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80+%3A%3A+GITHUB+METRICS+%3A%3A+%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80" />
     <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=14&duration=1&pause=99999&color=A4133C&center=true&vCenter=true&repeat=false&width=780&lines=%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80+%3A%3A+GITHUB+METRICS+%3A%3A+%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80" />
     <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=14&duration=1&pause=99999&color=A4133C&center=true&vCenter=true&repeat=false&width=780&lines=%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80+%3A%3A+GITHUB+METRICS+%3A%3A+%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80" alt="---------- :: GITHUB METRICS :: ----------" width="100%" />
   </picture>
 </p>
 
-<!-- [7] METRICS TABLE - streak | activity graph -->
 <table width="100%" cellspacing="0" cellpadding="6">
 <tr>
 <td width="45%" valign="top" align="center">
@@ -113,20 +117,18 @@
   <picture>
     <source media="(prefers-color-scheme: dark)"  srcset="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=14&duration=1&pause=99999&color=A4133C&center=true&vCenter=true&repeat=false&width=780&lines=%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80+%3A%3A+CONNECT+%3A%3A+%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80" />
     <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=14&duration=1&pause=99999&color=A4133C&center=true&vCenter=true&repeat=false&width=780&lines=%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80+%3A%3A+CONNECT+%3A%3A+%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80" />
-<!-- [9] CONNECT -->
     <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=14&duration=1&pause=99999&color=A4133C&center=true&vCenter=true&repeat=false&width=780&lines=%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80+%3A%3A+CONNECT+%3A%3A+%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80" alt="---------- :: CONNECT :: ----------" width="100%" />
   </picture>
 </p>
 <p align="center">
-  <a href="www.linkedin.com/in/adam-aarbouba"><img src="https://img.shields.io/badge/LinkedIn-1A1A1A?style=for-the-badge&logo=linkedin&logoColor=FF4D6D&labelColor=1A1A1A" alt="LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/adam-aarbouba"><img src="https://img.shields.io/badge/LinkedIn-1A1A1A?style=for-the-badge&logo=linkedin&logoColor=FF4D6D&labelColor=1A1A1A" alt="LinkedIn" /></a>
   &nbsp;
-  <a href="https://adamaarbouba.dev"><img src="https://img.shields.io/badge/Portfolio-1A1A1A?style=for-the-badge&logo=vercel&logoColor=A4133C&labelColor=1A1A1A" alt="Portfolio" /></a>
+  <a href="https://adam-aarbouba.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-1A1A1A?style=for-the-badge&logo=vercel&logoColor=A4133C&labelColor=1A1A1A" alt="Portfolio" /></a>
   &nbsp;
   <a href="https://github.com/adamaarbouba"><img src="https://img.shields.io/badge/GitHub-1A1A1A?style=for-the-badge&logo=github&logoColor=C9184A&labelColor=1A1A1A" alt="GitHub" /></a>
 </p>
 
 <p align="center">
-<!-- [10] FOOTER BADGES - views | followers | stars -->
   <img src="https://komarev.com/ghpvc/?username=adamaarbouba&color=A4133C&style=flat-square&label=PROFILE+VIEWS" alt="Total profile view count for adamaarbouba" />
   &nbsp;
   <img src="https://img.shields.io/github/followers/adamaarbouba?label=FOLLOWERS&style=flat-square&color=1A1A1A&logo=github&logoColor=FF4D6D&labelColor=A4133C" alt="GitHub followers count" />
@@ -135,7 +137,5 @@
 </p>
 
 <p align="center">
-<!-- [11] FOOTER BAR - assets/footer-bar.svg -->
   <img src="./assets/footer-bar.svg" alt="" width="800" />
 </p>
-
